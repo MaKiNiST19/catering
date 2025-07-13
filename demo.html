@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ateria Catering</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { margin: 0; overflow-x: hidden; }
+        .hero-bg {
+            background-image: url('./hero-bg.avif');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 p-4">
+        <nav class="bg-white rounded-2xl shadow-lg mx-4 px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-8">
+                    <a href="#" class="text-gray-800 hover:text-orange-600 transition-colors duration-300 font-medium">Anasayfa</a>
+                    <a href="#" class="text-gray-800 hover:text-orange-600 transition-colors duration-300 font-medium">Biz Kimiz?</a>
+                    <a href="#" class="text-gray-800 hover:text-orange-600 transition-colors duration-300 font-medium">Hizmetlerimiz</a>
+                </div>
+                
+                <div class="text-orange-600 font-bold text-lg">Lezzet Aşkına...</div>
+                
+                <div class="flex items-center space-x-4">
+                    <a href="#" class="text-gray-800 hover:text-orange-600 transition-colors duration-300 font-medium">Referanslarımız</a>
+                    <a href="#" class="text-gray-800 hover:text-orange-600 transition-colors duration-300 font-medium">İletişim</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg relative">
+        <div class="absolute inset-0 bg-black/20"></div>
+        
+        <div class="relative z-10 h-full flex items-center justify-center">
+            <div class="text-center">
+                <h1 class="text-9xl font-black text-white leading-tight drop-shadow-2xl mb-4">
+                    YENİLİKÇİ
+                </h1>
+                <h2 class="text-7xl font-black text-white/50 leading-tight drop-shadow-xl">
+                    LEZZETLİ
+                </h2>
+            </div>
+        </div>
+        
+        <!-- Front Image -->
+        <div class="absolute bottom-0 left-0 right-0 z-20 flex justify-center">
+            <img src="./hero-front.png" alt="Ateria Catering" class="h-96 object-contain">
+        </div>
+    </section>
+</body>
+</html>
